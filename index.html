@@ -83,27 +83,79 @@
             </section>
             <section class="cost-calculation">
                 <h2>Расчет стоимости грузов</h2>
-                <div class="wrap-form">
-                    <form action="">
-                        <label for="from">Откуда</label>
-                        <input type="text" name="from" id="from">
-                        <label for="where">Куда</label>
-                        <input type="text" name="where" id="where">
-                        <label for="weight">Вес груза</label>
-                        <input type="text" name="weight" id="weight">
-                        <label for="volume">Объем груза</label>
-                        <input type="text" name="volume" id="volume">
-                        <label for="comment">Комментарий к заказу</label>
-                        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-                        <label for="client-name">Ваше имя</label>
-                        <input type="text" name="client-name" id="client-name">
-                        <label for="tel">Телефон</label>
-                        <input type="tel" name="tel" id="tel">
-                        <button type="submit">Расчитать стоимость</button>
+                <div class="bacground-form">
+                    <form action="#" class="form-1">
+                        <div class="wrap-form">
+                            <div class="">
+                                <label for="from">Откуда</label>
+                                <input type="text" name="from" id="from" class="inp-from">
+                            </div>
+                            <div class="">
+                                <label for="where">Куда</label>
+                                <input type="text" name="where" id="where" class="inp-where">
+
+                            </div>
+                            <div class="">
+                                <label for="weight">Вес груза</label>
+                                <input type="text" name="weight" id="weight" class="inp-weight">
+
+                            </div>
+                            <div class="">
+                                <label for="volume">Объем груза</label>
+                                <input type="text" name="volume" id="volume" class="inp-volume">
+
+                            </div>
+                            <div class="text-area">
+                                <span class="label-textarea">Комментарий к заказу</span>
+                                <textarea name="comment" id="comment"></textarea>
+
+                            </div>
+                            <div class="">
+                                <label for="client-name">Ваше имя</label>
+                                <input type="text" name="client-name" id="client-name" class="inp-name">
+
+                            </div>
+                            <div class="">
+                                <label for="tel">Телефон</label>
+                                <input type="tel" name="tel" id="tel" class="inp-tel">
+
+                            </div>
+                            <button type="submit" class="btn-form-1">Расчитать стоимость</button>
+
+                        </div>
                     </form>
                 </div>
             </section>
-            <section class="combined-cargo"></section>
+            <section class="combined-cargo">
+                <h2>Отправка сборных грузов</h2>
+                <div class="combined-cargo-wrap">
+                    <div class="combined-cargo-wrap-item text-item">
+                        <p>Принимаем заказы на доставку сборных грузов</p>
+                        <p>Сборные грузоперевозки — это экономичный способ доставки небольшой партии товара, продукции,
+                            стройматериалов или оборудования, для которого не выгодно использовать отдельное
+                            транспортное
+                            средство.</p>
+                        <p>Что такое «сборный груз»
+                            Сборный груз — это груз, перевозимый сборными партиями. В одной машине мы перевозим сборные
+                            грузы
+                            разных клиентов, которые оплачивают только ту часть стоимости доставки сборных грузов,
+                            которая
+                            соответствует объему и месту, занятому под их груз.</p>
+                    </div>
+                    <div class="combined-cargo-wrap-item box-item">
+                        <picture>
+                            <source srcset="/img/box-320.jpg" media="(max-width: 320px)">
+                            <source srcset="/img/box-480.jpg" media="(max-width: 480px)">
+                            <source srcset="/img/box-768.jpg" media="(max-width: 768)">
+                            <source srcset="/img/box-1024.jpg" media="(max-width: 1024px)">
+                            <img src="/img/box-1920.jpg" alt="Груз в коробках">
+                        </picture>
+                        <div class="box-big"></div>
+                        <div class="box-small"></div>
+                    </div>
+                </div>
+                <button type="submit" class="btn-2">Отправить сборным грузом</button>
+            </section>
             <section class="oversize-cargo"></section>
             <section class="dangerouse-cargo"></section>
             <section class="steps"></section>
