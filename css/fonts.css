@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'TTnorms';
+    src: url('/css/fonts/TTNorms/TTNorms-Regular.eot');
+    src: local('TTnorms'), 
+        url('/css/fonts/TTNorms/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/TTNorms/TTNorms-Regular.woff') format('woff'),
+        url('/css/fonts/TTNorms/TTNorms-Regular.woff2') format('woff2'),
+        url('/css/fonts/TTNorms/TTNorms-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTnorms';
+    src: url('/css/fonts/TTNorms/TTNorms-Medium.eot');
+    src: local('TTnorms'), 
+        url('/css/fonts/TTNorms/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/TTNorms/TTNorms-Medium.woff') format('woff'),
+        url('/css/fonts/TTNorms/TTNorms-Medium.woff2') format('woff2'),
+        url('/css/fonts/TTNorms/TTNorms-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTnorms';
+    src: url('/css/fonts/TTNorms/TTNorms-Bold.eot');
+    src: local('TTnorms'), 
+        url('/css/fonts/TTNorms/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/TTNormsTTNorms-Bold.woff') format('woff'),
+        url('/css/fonts/TTNorms/TTNorms-Bold.woff2') format('woff2'),
+        url('/css/fonts/TTNormsTTNorms-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/css/fonts/Gilroy/gilroy-medium.ttf');
+    src: local('TTnorms'), 
+        url('/css/fonts/Gilroy/gilroy-medium.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/Gilroy/gilroy-medium.woff') format('woff'),
+        url('/css/fonts/Gilroy/gilroy-mediumy.woff2') format('woff2'),
+        url('/css/fonts/Gilroy/gilroy-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
