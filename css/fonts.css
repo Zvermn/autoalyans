@@ -35,6 +35,18 @@
 }
 
 @font-face {
+    font-family: 'TTnorms';
+    src: url('/css/fonts/TTNorms/TTNorms-ExtraBold.eot');
+    src: local('TTnorms'), 
+        url('/css/fonts/TTNorms/TTNorms-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/TTNormsTTNorms-ExtraBold.woff') format('woff'),
+        url('/css/fonts/TTNorms/TTNorms-ExtraBold.woff2') format('woff2'),
+        url('/css/fonts/TTNormsTTNorms-ExtraBold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Gilroy';
     src: url('/css/fonts/Gilroy/gilroy-medium.ttf');
     src: local('TTnorms'), 

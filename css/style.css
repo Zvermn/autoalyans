@@ -141,7 +141,7 @@ p {
     margin: 0 auto;
 }
 
-.about-list li:before{
+.about-list li:before, .oversize-list li:before{
     content: url(/css/icon/blue-around.svg);
     padding: 0 20px;
 }
@@ -185,7 +185,7 @@ section {
     margin-bottom: 100px;
 }
 
-.bacground-form input {
+.bacground-form input, .send input {
     height: 40px;
     border: 2px solid rgba(212, 212, 212, 1);
     border-radius: 3px;
@@ -193,7 +193,7 @@ section {
     padding: 0 20px;
 }
 
-.bacground-form label, .label-textarea {
+.bacground-form label, .label-textarea, .send label {
     margin-left: 20px;
     text-transform: uppercase;
     font-family: 'TTNorms';
@@ -266,7 +266,7 @@ section {
    width: 100%;
 }
 
-.btn-form-1, .btn-2 {
+.btn-form-1, .cargo-btn, .btn-send {
     padding: 10px 70px;
     background-color: #0085FF;
     color: #ffffff;
@@ -282,39 +282,98 @@ section {
 
 }
 
-.form-1 input:focus, .form-1 textarea:focus {
+.form-1 input:focus, .form-1 textarea:focus, .send input:focus {
     border-color: rgba(0, 133, 255, 1);
 }
 
-.combined-cargo-wrap {
+.cargo-wrap {
     display: flex;
     flex-flow: row wrap;
+    margin-bottom: 20px;
 }
-.combined-cargo-wrap-item {}
 .text-item {
     flex: 1 1;
+    margin-bottom: 20px;
 }
 .box-item {
     position: relative;
     flex: 1.7 0;
 }
 
-.box-small {
-    background-image: url(/css/img/box-dashed-small.svg);
-    max-width: 110px;
-    width: 100%;
-    height: 119px;
-    position: absolute;
-    top: 0;
-    left: 44%;
-
+.steps {
+    background-color: #F5F5F5;
+    padding: 71px 0;
 }
-.box-big {
-    background-image: url(/css/img/box-dashed-big.svg);
-    max-width: 185px;
-    width: 100%;
-    height: 200px;
+
+.steps-list {}
+.steps-numb {
+    color: rgba(204, 0, 0, 1);
+    font-family: 'TTNorms';
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: 900;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.steps-numb-shadow {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'TTNorms';
+    font-style: normal;
+    font-size: 3.5rem;
+    font-weight: 900;
     position: absolute;
-    top: 0;
-    left: 30%;
+    top: -32px;
+    left: 4px;
+    z-index: -1;
+    line-height: 2;
+}
+
+.link-blue {
+    color:rgba(0, 133, 255, 1);
+}
+
+.steps-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.steps-list-item {
+    margin-right: 120px;
+    flex: 1 1 310px;
+}
+
+.insurance p{
+    max-width: 700px;
+    width: 100%;
+}
+
+.send {
+    max-width: 543px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.send h2 {
+    text-align: center;
+}
+
+.send-form-wrap {
+    margin: 0 auto;
+    max-width: 310px;
+    width: 100%;
+} 
+
+.send-form-wrap input:last-of-type {
+    margin-bottom: 30px;
+}
+
+.btn-send {
+    background-color: #CC0000;
+    width: 100%;
+}
+
+.inp-name.send-form, .inp-tel.send-form  {
+    margin-left: 0;
 }
