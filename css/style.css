@@ -239,6 +239,32 @@ section {
     margin: 0 auto;
 }
 
+.icon-inp{
+    display: inline;
+    height: 16px;
+    position: absolute;
+    margin: 0;
+}
+
+.icon-weight{
+    background-image: url(/css/icon/weight.svg);
+    width: 10.5px;
+    top: 32px;
+    right: 22px;
+}
+
+.icon-volume{
+    background-image: url(/css/icon/volume.svg);
+    width: 13.5px;
+    top: 32px;
+    right: 22px;
+
+}
+
+.weight-wrap, .volume-wrap{
+    position: relative;
+}
+
 .cost-calculation h2{
     text-align: center;
 }
@@ -352,7 +378,7 @@ section {
 .send {
     max-width: 543px;
     width: 100%;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .send h2 {
@@ -376,4 +402,90 @@ section {
 
 .inp-name.send-form, .inp-tel.send-form  {
     margin-left: 0;
+}
+
+.autor span {
+    color: rgb(0, 0, 0);
+    font-family: "TTNorms";
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.autor .c-b {
+    font-family: "TTNorms";
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.autor span:nth-child(3) {
+    color: #ff0000;
+}
+
+.icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+.vk {
+    background-image: url(/css/icon/vk.svg);
+}
+.yt {
+    background-image: url(/css/icon/youtube.svg);
+}
+.inst {
+    background-image: url(/css/icon/instagram.svg);
+}
+
+footer span, footer a {
+    font-family: 'TTNorms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.87rem;
+    color: black;
+}
+
+.link-tel {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.firm {
+    display: block;
+}
+
+.footer-logo {
+    background-image: url(/css/icon/Logo-footer.svg);
+    width: 150px;
+    height: 150px;
+}
+footer .line-decorate{
+    margin: 0;
+}
+footer {
+    padding: 30px 0 10px 0;
+    background-color:#F5F5F5;
+}
+.decorate-footer {
+    width: 100%;
+    background-image: url(/css/icon/footer-dashed.svg);
+    height: 3px;
+}
+
+.footer-social{
+    text-align: right;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.footer-contact{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
 }
