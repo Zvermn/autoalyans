@@ -1,0 +1,80 @@
+@media screen and (max-width: 768px) /*and (min-width:768px)*/{
+    .header-wrap {
+        justify-content: center;
+    }
+
+    .item-2{
+        
+            align-items: stretch;
+            flex-basis: 100%;
+    }
+
+    .info{
+        text-align: center;
+    }
+
+    .nav{
+        align-self: flex-start;
+    }
+
+    .stat-block{
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 470px;
+    }
+
+    .stat-block-item{
+        margin-bottom: 20px;
+    }
+
+    .numb{
+        margin-bottom: 5px;
+    }
+
+    .text-item{
+        flex: auto;
+    }
+
+    .steps-list-item{
+        flex: 0 0 345px;
+    }
+
+    .insurance p{
+        max-width: 70%;
+    }
+    .insurance h2{
+        text-align: center;
+    }
+
+    .footer-wrap{
+        flex-flow: column nowrap;
+        align-items: center;
+        height: 400px;
+    }
+
+    .footer-contact{
+        flex-basis: 90px;
+        text-align: center;
+        order: 2;
+    }
+
+    .footer-social{
+        flex-basis: 120px;
+        align-items: center;
+        justify-content: space-evenly;
+        order: 3;
+    }
+
+    .autor{
+        margin: unset;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    section{
+        margin-bottom: 80px;
+    } 
+
+
+}

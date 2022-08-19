@@ -79,11 +79,18 @@ body {
     color: black;
     padding: 5px 30px;
     border-radius: 81px;
-    background-color: rgb(121, 106, 106);
 }
 
 .nav .link-nav:nth-child(2) {
     margin: 0 20px;
+}
+
+.link-nav:hover{
+    background-color: #F5F5F5;
+}
+
+.link-nav:active{
+    background-color: #CC0000;
 }
 
 /* >section about                                                    */
@@ -133,7 +140,7 @@ p {
 }
 
 .about-wrap-item-1 {
-    flex-basis: 47%;
+    flex-basis: 50%;
     align-self: center;
 }
 
@@ -331,7 +338,6 @@ section {
     padding: 71px 0;
 }
 
-.steps-list {}
 .steps-numb {
     color: rgba(204, 0, 0, 1);
     font-family: 'TTNorms';
@@ -366,8 +372,8 @@ section {
 }
 
 .steps-list-item {
-    margin-right: 120px;
-    flex: 1 1 310px;
+    margin-right: auto;
+    flex: 0 1 310px;
 }
 
 .insurance p{
@@ -425,15 +431,22 @@ section {
     display: inline-block;
     width: 32px;
     height: 32px;
+    
 }
 .vk {
     background-image: url(/css/icon/vk.svg);
+    background-repeat: no-repeat;
 }
 .yt {
     background-image: url(/css/icon/youtube.svg);
+    background-repeat: no-repeat;
+    margin: 0 10px;
+
 }
 .inst {
     background-image: url(/css/icon/instagram.svg);
+    background-repeat: no-repeat;
+
 }
 
 footer span, footer a {
@@ -481,11 +494,21 @@ footer {
     text-align: right;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 
 .footer-contact{
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
+
+.autor{
+    margin: auto 0;
+}
+
+.footer-social span{
+    margin-bottom: 10px;
+}
+
+@import url(/css/media.css);
