@@ -89,7 +89,7 @@ body {
     background-color: #F5F5F5;
 }
 
-.link-nav:active{
+.link-nav.active{
     background-color: #CC0000;
 }
 
@@ -146,11 +146,22 @@ p {
 
 .about-wrap-item-2 {
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .about-list li:before, .oversize-list li:before{
     content: url(/css/icon/blue-around.svg);
     padding: 0 20px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -20px;
+}
+
+.about-list li, .oversize-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
 }
 
 .stat-block {
@@ -186,13 +197,14 @@ p {
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 section {
     margin-bottom: 100px;
 }
 
-.bacground-form input, .send input {
+.bacground-form input, .send input, .pop-up input {
     height: 40px;
     border: 2px solid rgba(212, 212, 212, 1);
     border-radius: 3px;
@@ -200,8 +212,9 @@ section {
     padding: 0 20px;
 }
 
-.bacground-form label, .label-textarea, .send label {
-    margin-left: 20px;
+.bacground-form label, .label-textarea, .send label, .pop-up label {
+    display: inline-block;
+    margin: 0 0 5px 20px;
     text-transform: uppercase;
     font-family: 'TTNorms';
     font-weight: 500;
@@ -220,9 +233,13 @@ section {
     border-radius: 3px;
     max-width: 640px;
     width: 100%;
-    margin: 10px;
+    /* margin: 10px; */
     display: block;
     height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
 }
 
 .form-1 .text-area {
@@ -236,7 +253,7 @@ section {
     box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.3);
     border: 1px solid #ffffff;
     border-radius: 3px;
-    padding: 60px 0 0 0;
+    padding: 60px 10px 0 10px ;
     max-width: 860px;
     width: 100%;
     margin: 0 auto;
@@ -270,6 +287,12 @@ section {
 
 .weight-wrap, .volume-wrap{
     position: relative;
+    flex-basis: 145px;
+}
+
+.weight-wrap{
+    margin-right: 20px;
+
 }
 
 .cost-calculation h2{
@@ -277,14 +300,20 @@ section {
 }
 
 .inp-from, .inp-where, .inp-name, .inp-tel {
-    width: 310px;
-    margin: 5px 10px 0 10px;
+    width: 100%;
 }
 
 .inp-weight, .inp-volume {
-    width: 145px;
-    margin: 5px 10px 0 10px;
+   width: 100%;
 }
+
+.where-wrap, .from-wrap, .name-wrap, .tel-wrap{
+    flex-basis: 310px;
+    margin-right: auto;
+}
+
+
+
 .form-1  div {
     margin-bottom: 28px;
 }
@@ -312,10 +341,15 @@ section {
     font-style: normal;
     font-size: 0.625rem ;
     line-height: 1.2;
-
 }
 
-.form-1 input:focus, .form-1 textarea:focus, .send input:focus {
+ .cargo-btn, .btn-send {
+    padding: 10px 10px;
+    max-width: 310px;
+    width: 100%;
+ }
+
+.form-1 input:focus, .form-1 textarea:focus, .send input:focus, .pop-up input:focus {
     border-color: rgba(0, 133, 255, 1);
 }
 
@@ -331,6 +365,8 @@ section {
 .box-item {
     position: relative;
     flex: 1.7 0;
+    text-align: center;
+    overflow: hidden;
 }
 
 .steps {
@@ -364,6 +400,11 @@ section {
 
 .link-blue {
     color:rgba(0, 133, 255, 1);
+
+}
+
+.link-blue:hover{
+    cursor: pointer;
 }
 
 .steps-list {
@@ -477,7 +518,7 @@ footer span, footer a {
     width: 150px;
     height: 150px;
 }
-footer .line-decorate{
+footer .line-decorate {
     margin: 0;
 }
 footer {
@@ -490,25 +531,76 @@ footer {
     height: 3px;
 }
 
-.footer-social{
+.footer-social {
     text-align: right;
     display: flex;
     flex-flow: column wrap;
     justify-content: start;
 }
 
-.footer-contact{
+.footer-contact {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
 }
 
-.autor{
+.autor {
     margin: auto 0;
 }
 
-.footer-social span{
+.footer-social span {
     margin-bottom: 10px;
 }
+
+.pop-up-wrap {
+    padding: 20px;
+    position: relative;
+}
+.pop-up {
+    display: none;
+    max-width: 330px;
+    width: 100%;
+    transform: translateY(50%) scale(0);
+    background-color: #ffffff;
+}
+.active-pop-up {
+    display: block;
+    transform: translateY(50%) scale(1);
+    transition: 0.5s all;
+    margin: 0 auto;
+}
+
+.pop-up-bg {
+    position: fixed;
+    background-color: rgba(0, 133, 255, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.pop-up-bg.active {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+
+.close-form {
+    background-image: url(/css/icon/close.svg);
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 13px;
+    left:292px;
+}
+
+.close-form:hover{
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
 
 @import url(/css/media.css);

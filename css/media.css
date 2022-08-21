@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) /*and (min-width:768px)*/{
+@media screen and (max-width: 769px) /*and (min-width:768px)*/{
     .header-wrap {
         justify-content: center;
     }
@@ -37,7 +37,7 @@
     }
 
     .steps-list-item{
-        flex: 0 0 345px;
+        flex: 0 1 380px;
     }
 
     .insurance p{
@@ -77,4 +77,63 @@
     } 
 
 
+}
+
+@media screen and (max-width: 480px){
+    
+    p, li {
+        font-size: 1.12rem;
+    }
+
+    .nav{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin: 0 auto;
+        padding-bottom: unset;
+    }
+
+    .header-mail{
+        margin-bottom: 20px;
+    }
+
+    .about-wrap-item-1{
+        flex-basis: unset;
+    }
+
+    .bacground-form{
+        padding: 60px 0;
+        box-shadow: unset;
+    }
+
+    .weight-wrap {
+        margin-right: auto;
+    }
+
+    .insurance p{
+        max-width: unset;
+    }
+    .send{
+        margin: 0;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+
+    .bacground-form{
+        padding: 30px 5px;
+        box-shadow: unset;
+    }
+
+    .about-list li:before, .oversize-list li:before{
+        padding: 0 10px 0 20px;
+    }
 }
