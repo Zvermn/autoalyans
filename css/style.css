@@ -71,6 +71,10 @@ body {
 .nav {
     padding-bottom: 30px;
 }
+
+.nav a {
+    text-align: center;
+}
 .link-nav {
     font-family: 'Gilroy';
     font-weight: 500;
@@ -81,9 +85,9 @@ body {
     border-radius: 81px;
 }
 
-.nav .link-nav:nth-child(2) {
+/* .nav .link-nav:nth-child(2) {
     margin: 0 20px;
-}
+} */
 
 .link-nav:hover{
     background-color: #F5F5F5;
@@ -121,7 +125,14 @@ p, li {
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.4;
+}
+
+input {
+    font-family: 'TTNorms';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.8rem ;
 }
 
 p {
@@ -417,6 +428,14 @@ section {
     flex-flow: row wrap;
 }
 
+.steps-list li {
+    margin-bottom: 25px;
+}
+
+.steps-list li:last-child{
+    margin-bottom: unset;
+}
+
 .steps-list-item {
     margin-right: auto;
     flex: 0 1 310px;
@@ -454,6 +473,10 @@ section {
 
 .inp-name.send-form, .inp-tel.send-form  {
     margin-left: 0;
+}
+
+.inp-name{
+    margin-bottom: 20px;
 }
 
 .autor span {
@@ -598,13 +621,21 @@ footer {
     width: 16px;
     height: 16px;
     position: absolute;
-    top: 13px;
+    top: -113px;
     left:292px;
+    transform: rotate(45deg);
 }
 
 .close-form:hover{
-    transform: rotate(45deg);
+    transform: rotate(135deg);
     cursor: pointer;
+    transition: 1s;
+}
+
+.pop-up h2 {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: unset;
 }
 
 img {
