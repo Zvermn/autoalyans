@@ -60,6 +60,7 @@ body {
     font-size: 1rem;
     display: block;
     margin-bottom: 10px;
+    color: black;
 }
 .header-tel {
     font-family: 'TTNorms';
@@ -72,8 +73,9 @@ body {
     padding-bottom: 30px;
 }
 
-.nav a {
+.nav li {
     text-align: center;
+    display: inline-block;
 }
 .link-nav {
     font-family: 'Gilroy';
@@ -128,7 +130,7 @@ p, li {
     line-height: 1.4;
 }
 
-input {
+input, textarea {
     font-family: 'TTNorms';
     font-weight: 500;
     font-style: normal;
@@ -173,6 +175,10 @@ p {
     position: relative;
     padding-left: 20px;
     margin-bottom: 10px;
+}
+
+.about-list{
+    padding-left: 20px;
 }
 
 .stat-block {
@@ -354,6 +360,8 @@ section {
     font-style: normal;
     font-size: 0.625rem ;
     line-height: 1.2;
+    max-width: 310px;
+    width: 100%;
 }
 
  .cargo-btn, .btn-send {
@@ -383,6 +391,10 @@ section {
     flex: 1.7 0;
     text-align: center;
     overflow: hidden;
+}
+
+.oversize-list {
+    padding-left: 20px;
 }
 
 .steps {

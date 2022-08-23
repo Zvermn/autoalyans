@@ -20,17 +20,19 @@
     <div class="wrap">
         <header class="header-wrap">
             <div class="item-1">
-                <img src="/icon/Logo-150-150.svg" alt="Альянс-авто" class="logo">
+                <a href="#"><img src="/icon/Logo-150-150.svg" alt="Альянс-авто" class="logo"></a>
             </div>
             <div class="item-2">
                 <div class="info">
-                    <span class="header-mail">alians-avto@mail.ru</span>
+                    <a href="mailto:alians-avto@mail.ru" class="header-mail">alians-avto@mail.ru</a>
                     <a href="tel:89041248598" class="header-tel">+7(904) 124-85-98</a>
                 </div>
-                <nav class="nav">
-                    <a class="link-nav" href="#">Грузоперевозки</a>
-                    <a class="link-nav" href="#">Аренда спецтехники</a>
-                    <a class="link-nav" href="#">Контакты</a>
+                <nav>
+                    <ul class="nav">
+                        <li> <a class="link-nav" href="#">Грузоперевозки</a></li>
+                        <li><a class="link-nav" href="#">Аренда спецтехники</a></li>
+                        <li><a class="link-nav" href="#">Контакты</a></li>
+                    </ul>
                 </nav>
             </div>
         </header>
@@ -117,7 +119,7 @@
                             </div>
                             <div class="tel-wrap">
                                 <label for="tel">Телефон</label>
-                                <input type="tel" name="tel" id="tel" class="inp-tel">
+                                <input type="tel" name="tel" id="tel" class="inp-tel tel-input phone-field">
                             </div>
                             <button type="submit" class="btn-form-1">Расчитать стоимость</button>
                         </div>
@@ -238,7 +240,7 @@
                     <label for="client-name">Ваше имя</label>
                     <input type="text" name="client-name" id="client-name" class="inp-name send-form">
                     <label for="tel">Телефон</label>
-                    <input type="tel" name="tel" id="tel" class="inp-tel  send-form">
+                    <input type="tel" name="tel" id="tel" class="inp-tel  send-form tel-input phone-field">
                     <button type="submit" class="btn-send">Позвоните мне</button>
                 </div>
             </form>
@@ -253,7 +255,10 @@
                 <span class="firm">© 2022 ООО ТК "Альянс-Авто"</span>
                 <a href="mailto:perevozzka38@yandex.ru">perevozzka38@yandex.ru</a>
             </div>
-            <div class="footer-item footer-logo"></div>
+
+            <a href="#">
+                <div class="footer-item footer-logo"></div>
+            </a>
             <div class="footer-item footer-social">
                 <span>Мы в соцсетях:</span>
                 <div class="social-icon">
@@ -285,7 +290,7 @@
                     <label for="client-name">Ваше имя</label>
                     <input type="text" name="client-name" id="client-name" class="inp-name send-form">
                     <label for="tel">Телефон</label>
-                    <input type="tel" name="tel" id="tel" class="inp-tel  send-form">
+                    <input type="tel" name="tel" id="tel" class="inp-tel  send-form tel-input phone-field">
                     <button type="submit" class="btn-send">Позвоните мне</button>
                     <div class="close-form"></div>
                 </div>

@@ -33,16 +33,30 @@
     }
 
     .text-item{
+        flex:0 0 70%;
+    }
+
+    .box-item{
         flex: auto;
+        margin-bottom: 40px;
+    }
+
+    .about-wrap-item-1{
+        flex-basis: unset;
+    }
+    .steps{
+        padding: 71px 0;
+        margin: 0 20px 80px 20px;
+    }
+    
+    .insurance p {
+        width: 70%;
     }
 
     .steps-list-item{
         flex: 0 1 380px;
     }
 
-    .insurance p{
-        max-width: 70%;
-    }
     .insurance h2{
         text-align: center;
     }
@@ -75,8 +89,16 @@
     section{
         margin-bottom: 80px;
     } 
+    h2{
+        text-align: center;
+    }
 
-
+    .about h2{
+        text-align: start;
+    }
+    .send{
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -89,13 +111,14 @@
         margin-bottom: 20px;
     }
 
-    .about-wrap-item-1{
-        flex-basis: unset;
-    }
 
     .bacground-form{
         padding: 60px 0;
-        box-shadow: unset;
+        /* box-shadow: unset; */
+    }
+
+    .text-item {
+        flex: unset;
     }
 
     /* .weight-wrap {
@@ -103,7 +126,7 @@
     } */
 
     .insurance p{
-        max-width: unset;
+        width: 100%;
     }
     .send{
         margin: 0;
@@ -127,6 +150,15 @@
 
     .about-list li:before, .oversize-list li:before{
         padding: 0 10px 0 20px;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    .steps {
+        padding: 30px 0;
+        margin: 0 20px 40px 20px;
     }
 }
 
@@ -159,6 +191,10 @@
         padding: unset;
         }
     
+        .bacground-form{
+            box-shadow: unset;
+        }
+    
 
 }
 @media screen and (max-width: 620px) {
@@ -170,11 +206,11 @@
         padding-bottom: unset;
     }
 
-    .nav a {
+    .nav li {
         margin-bottom: 20px;
     }
 
-    .nav a:last-child{
+    .nav li:last-child{
         margin-bottom: unset;
     }
 }
