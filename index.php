@@ -1,41 +1,12 @@
 <!DOCTYPE html>
 <html lang='ru'>
-
-<head>
-    <meta charset='utf-8'>
-    <meta name='description' content='Альянс-авто'>
-    <meta name='keywords'
-        content='доставка грузов, негабаритный груз, опасные грузы, страхование грузов, аренда спецтехники'>
-    <link rel='stylesheet' href='/css/style.css' type='text/css'>
-    <link rel='stylesheet' href='/css/media.css' type='text/css'>
-    <link rel='icon' href='' type='' sizes=''>
-    <link rel='stylesheet' href='/css/fonts.css'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Доставка грузов</title>
-</head>
+<?php include 'includes/head.php'; ?>
 <html>
 
 <body>
     <div class="line-decorate"></div>
     <div class="wrap">
-        <header class="header-wrap">
-            <div class="item-1">
-                <a href="#"><img src="/icon/Logo-150-150.svg" alt="Альянс-авто" class="logo"></a>
-            </div>
-            <div class="item-2">
-                <div class="info">
-                    <a href="mailto:alians-avto@mail.ru" class="header-mail">alians-avto@mail.ru</a>
-                    <a href="tel:89041248598" class="header-tel">+7(904) 124-85-98</a>
-                </div>
-                <nav>
-                    <ul class="nav">
-                        <li> <a class="link-nav" href="#">Грузоперевозки</a></li>
-                        <li><a class="link-nav" href="#">Аренда спецтехники</a></li>
-                        <li><a class="link-nav" href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+        <?php include 'includes/header.php'; ?>
         <main>
             <h1>Доставка любых грузов <span class="red-text">автомобильным</span> транспортом по России</h1>
             <section class="about">
@@ -231,72 +202,12 @@
                 собственников при доставке сборных грузов и возмещения ущерба в максимально короткие сроки.
             </p>
         </section>
-        <section class="send">
-            <h2>Заказать звонок</h2>
-            <p>Отавьте заявку на звонок. Мы перезвоним и ответим на все ваши вопросы
-            </p>
-            <form action="#">
-                <div class="send-form-wrap">
-                    <label for="client-name">Ваше имя</label>
-                    <input type="text" name="client-name" id="client-name" class="inp-name send-form">
-                    <label for="tel">Телефон</label>
-                    <input type="tel" name="tel" id="tel" class="inp-tel  send-form tel-input phone-field">
-                    <button type="submit" class="btn-send">Позвоните мне</button>
-                </div>
-            </form>
-        </section>
+        <?php include 'includes/section_send.php';?>
         </main>
     </div>
     <div class="decorate-footer"></div>
-    <footer>
-        <div class="wrap footer-wrap">
-            <div class="footer-item footer-contact">
-                <a href="tel:89041248598" class="link-tel">+7 (904) 124-85-98</a>
-                <span class="firm">© 2022 ООО ТК "Альянс-Авто"</span>
-                <a href="mailto:perevozzka38@yandex.ru">perevozzka38@yandex.ru</a>
-            </div>
-
-            <a href="#">
-                <div class="footer-item footer-logo"></div>
-            </a>
-            <div class="footer-item footer-social">
-                <span>Мы в соцсетях:</span>
-                <div class="social-icon">
-                    <a href="http://vk.com">
-                        <div class="icon vk"></div>
-                    </a>
-                    <a href="http://youtube.com">
-                        <div class="icon yt"></div>
-                    </a>
-                    <a href="http://instagramm.com">
-                        <div class="icon inst"></div>
-                    </a>
-                </div>
-                <div class="autor">
-                    <a></a>
-                    <span>Разработка сайта:&nbsp;</span><a href="https://creativebob.ru"><span
-                            class="c-b">Creative</span><span class="c-b">Bob&nbsp;</span><span
-                            class="c-b">Studio</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="line-decorate"></div>
-    </footer>
-    <div class="pop-up-bg">
-        <div class="pop-up">
-            <h2>Заказать перевозку</h2>
-            <form action="#">
-                <div class="send-form-wrap pop-up-wrap">
-                    <label for="client-name">Ваше имя</label>
-                    <input type="text" name="client-name" id="client-name" class="inp-name send-form">
-                    <label for="tel">Телефон</label>
-                    <input type="tel" name="tel" id="tel" class="inp-tel  send-form tel-input phone-field">
-                    <button type="submit" class="btn-send">Позвоните мне</button>
-                    <div class="close-form"></div>
-                </div>
-            </form>
-        </div>
-    </div>
+    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/popup.php'; ?>
     <script src="/js/app.js"></script>
 </body>
 
