@@ -49,10 +49,10 @@
                         <span class="text">тонн доставленных грузов</span>
                     </div>
                 </div>
-                <picture class="white-car">
+                <picture class="white-car wow slideInRight " data-wow-offset='350'>
                     <source srcset="/img/car-1-320.jpg" media="(max-width: 360px)">
                     <source srcset="/img/car-1-480.jpg" media="(max-width: 480px)  and (min-width: 361px)">
-                    <img src="/img/car-1-1920.jpg" alt="Белая фура">
+                    <img src="/img/car-1-1920.jpg" alt="Белая фура" class=''>
                 </picture>
             </section>
             <section class="cost-calculation">
@@ -114,12 +114,12 @@
                             соответствует объему и месту, занятому под их груз.</p>
                     </div>
                     <div class="cargo-wrap-item box-item">
-                        <picture>
+                        <picture class=''>
                             <source srcset="/img/box-320.jpg" media="(max-width: 370px)">
                             <source srcset="/img/box-480.jpg" media="(max-width: 480px)">
                             <source srcset="/img/box-768.jpg" media="(max-width: 768px)">
                             <source srcset="/img/box-1024.jpg" media="(max-width: 1024px) and (min-width: 769px)">
-                            <img src="/img/box-1920.jpg" alt="Груз в коробках">
+                            <img src="/img/box-1920.jpg" alt="Груз в коробках" class='wow bounceInDown' data-wow-offset='350'>
                         </picture>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                             <source srcset="/img/IMG-oversize-480.jpg" media="(max-width: 480px)">
                             <source srcset="/img/IMG-oversize-768.jpg" media="(max-width: 768px)">
                             <source srcset="/img/IMG-oversize-1024.jpg" media="(max-width: 1024px)">
-                            <img src="/img/IMG-oversize-1920.jpg" alt="Груз в коробках">
+                            <img src="/img/IMG-oversize-1920.jpg" alt="Большегруз" class='wow slideInRight' data-wow-offset='350'>
                         </picture>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                             <source srcset="/img/IMG-danger-480.jpg" media="(max-width: 480px)">
                             <source srcset="/img/IMG-danger-768.jpg" media="(max-width: 768px)">
                             <source srcset="/img/IMG-danger-1024.jpg" media="(max-width: 1024px)">
-                            <img src="/img/IMG-danger-1920.jpg" alt="Груз в коробках">
+                            <img src="/img/IMG-danger-1920.jpg" alt="Опасный груз" class='wow slideInRight' data-wow-offset='350'>
                         </picture>
                     </div>
                 </div>
@@ -209,6 +209,8 @@
     <?php include 'includes/footer.php'; ?>
     <?php include 'includes/popup.php'; ?>
     <script src="/js/app.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 
 </html>

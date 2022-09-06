@@ -1,6 +1,6 @@
 <header class="header-wrap">
             <div class="item-1">
-                <a href="#"><img src="/icon/Logo-150-150.svg" alt="Альянс-авто" class="logo"></a>
+                <a href="/index.php"><img src="/icon/Logo-150-150.svg" alt="Альянс-авто" class="logo"></a>
             </div>
             <div class="item-2">
                 <div class="info">

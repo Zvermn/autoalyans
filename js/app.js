@@ -4,11 +4,7 @@ let popupBg = document.querySelector('.pop-up-bg');
 let closePopupButton = document.querySelector('.close-form');
 let linkBlue = document.querySelector('.link-blue');
 
-linkBlue.addEventListener('click', () => {
-    popUp.classList.add('active-pop-up');
-    popupBg.classList.add('active');
-    console.log('yes');
-});
+
 
 openPopUpButtons.forEach((button) => {
     button.addEventListener('click', (e) => {
@@ -114,4 +110,10 @@ document.addEventListener("DOMContentLoaded", function () {
         phoneInput.addEventListener('input', onPhoneInput, false);
         phoneInput.addEventListener('paste', onPhonePaste, false);
     }
+});
+
+linkBlue.addEventListener('click', () => {
+    popUp.classList.add('active-pop-up');
+    popupBg.classList.add('active');
+    console.log('yes');
 });

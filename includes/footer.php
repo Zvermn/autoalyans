@@ -6,7 +6,7 @@
                 <a href="mailto:perevozzka38@yandex.ru">perevozzka38@yandex.ru</a>
             </div>
 
-            <a href="#">
+            <a href="/index.php">
                 <div class="footer-item footer-logo"></div>
             </a>
             <div class="footer-item footer-social">
