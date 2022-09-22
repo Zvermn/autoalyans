@@ -95,8 +95,9 @@ body {
     background-color: #F5F5F5;
 }
 
-.link-nav.active{
+.link-nav-active{
     background-color: #CC0000;
+    color: #ffffff;
 }
 
 /* >section about                                                    */
@@ -324,6 +325,11 @@ section {
    width: 145px;
 }
 
+.inp-weight:invalid, .inp-volume:invalid {
+    border: 8px solid rgb(245, 4, 4);
+    
+}
+
 .where-wrap, .from-wrap, .name-wrap, .tel-wrap{
     flex-basis: 310px;
 }
@@ -512,8 +518,26 @@ section {
     display: inline-block;
     width: 32px;
     height: 32px;
-    
 }
+
+@keyframes hightLite {
+    0% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(2);
+    }
+
+    100% {
+        filter: brightness(1);
+    }
+}
+
+.icon:hover {
+    -webkit-animation: hightLite;
+    animation: hightLite infinite 1s linear;  
+}
+
 .vk {
     background-image: url(/css/icon/vk.svg);
     background-repeat: no-repeat;
@@ -598,16 +622,15 @@ footer {
 }
 .pop-up {
     display: none;
-    max-width: 330px;
+    max-width: 450px;
     width: 100%;
     transform: translateY(50%) scale(0);
-    background: url(/css/img/box-bg-popup.jpg) no-repeat -15px 121px #ffffff ;
-
+    background: #ffffff ;
+    z-index: 10;
+    max-height: 400px;
+    height: 100%;
 }
 
-.pop-up label{
-    color: #ffffff;
-}
 .active-pop-up {
     display: block;
     transform: translateY(50%) scale(1);
@@ -631,6 +654,7 @@ footer {
     opacity: 1;
     pointer-events: all;
     transition: 0.5s all;
+    z-index: 1;
 }
 
 .close-form {
@@ -638,8 +662,8 @@ footer {
     width: 16px;
     height: 16px;
     position: absolute;
-    top: -113px;
-    left:292px;
+    top: -83px;
+    left: 345px;
     transform: rotate(45deg);
 }
 
@@ -655,9 +679,9 @@ footer {
     margin-bottom: unset;
 }
 
-img {
+/* img {
     width: 100%;
-}
+} */
 
 /* >rent page                                                                                */
 
@@ -681,6 +705,7 @@ img {
 
 .rent-list-item img {
     margin-bottom: 20px;
+    display: block;
 }
 
 .rent-list-item a{
@@ -704,14 +729,14 @@ img {
 
 @keyframes scale {
     from {transform: scale(1.0,1.0)}
-    50% {transform: scale(0.8,0.8)}
-    62.5% {transform: scale(1.2,1.2)}
-    75% {transform: scale(0.9,0.9)}
-    87.5% {transform: scale(1.1,1.1)}
+    50% {transform: scale(0.9,0.9)}
+    62.5% {transform: scale(1.1,1.1)}
+    75% {transform: scale(0.95,0.95)}
+    87.5% {transform: scale(1.095,1.095)}
     to {transform: scale(1.0,1.0)}
 }
 
-.rent-list-item a:hover {
+.rent-list-item img:hover {
     animation: scale 0.5s cubic-bezier(0.28, 0.72, 1, 0.39);
 }
 
@@ -781,6 +806,15 @@ img {
 
 .rent-mashin h2{
     margin-bottom: 100px;
+}
+
+.wrap-body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.decorate-footer {
+    margin-top: auto;
 }
 
 @import url(/css/media.css);

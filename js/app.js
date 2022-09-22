@@ -27,7 +27,6 @@ document.addEventListener('click', (e) => {
         popUp.classList.remove('active');
     }
 });
-console.log(popUp.classList);
 // ! ЗАпрет вставки из буфера в поле телефон
 let inputTel = document.querySelectorAll(".tel-input");
 inputTel.forEach(el => {
@@ -111,6 +110,17 @@ document.addEventListener("DOMContentLoaded", function () {
         phoneInput.addEventListener('paste', onPhonePaste, false);
     }
 });
+
+
+
+
+// >                                Анимация цифр при прокрутке
+
+
+
+
+
+
 
 linkBlue.addEventListener('click', () => {
     popUp.classList.add('active-pop-up');

@@ -9,9 +9,9 @@
                 </div>
                 <nav>
                     <ul class="nav">
-                        <li> <a class="link-nav" href="/index.php">Грузоперевозки</a></li>
+                        <li> <a class="link-nav link-nav-active" href="/index.php">Грузоперевозки</a></li>
                         <li><a class="link-nav" href="/rent.php">Аренда спецтехники</a></li>
-                        <li><a class="link-nav" href="#">Контакты</a></li>
+                        <li><a class="link-nav" href="/contact.php">Контакты</a></li>
                     </ul>
                 </nav>
             </div>

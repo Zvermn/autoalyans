@@ -12,74 +12,75 @@
             <section class="rent">
                 <h2>Каталог спецтехники</h2>
                 <ul class="rent-list">
-                    <li class="rent-list-item"><a href="/rent-info.php">
+                    <li class="rent-list-item">
+                        <a href="/rent-info.php">
                             <picture>
                                 <source srcset="/img/truck-768.jpg" media="(max-width: 700px)">
-                                <img src="/img/truck.jpg" alt="Грузовик">Грузовики<span>2</span>
+                                <img src="/img/truck.jpg" alt="Грузовик">
+                            </picture>Грузовики<span>2</span>
                         </a>
-                        </picture>
                     </li>
                     <li class="rent-list-item"><a href="/rent-info.php">
                             <picture>
                                 <source srcset="/img/trawl-768.jpg" media="(max-width: 700px)">
-                                <img src="/img/trawl.jpg" alt="Трал">Тралы<span>24</span>
-                            </picture>
+                                <img src="/img/trawl.jpg" alt="Трал">
+                            </picture>Тралы<span>24</span>
                         </a>
                     </li>
                     <li class="rent-list-item">
                         <a href="/rent-info.php">
                             <picture>
                                 <source srcset="/img/self - loading-768.jpg" media="(max-width: 700px)">
-                                <img src="/img/self - loading.jpg" alt="Самогруз">Самогрузы<span>24</span>
-                            </picture>
+                                <img src="/img/self - loading.jpg" alt="Самогруз">
+                            </picture>Самогрузы<span>24</span>
                         </a>
                     </li>
                     <li class="rent-list-item">
                         <a href="/rent-info.php">
                             <picture>
                                 <source srcset="/img/loader-768.jpg" media="(max-width: 700px)">
-                                <img src="/img/loader.jpg" alt="Погрузчик">Погрузчики<span>44</span>
-                            </picture>
+                                <img src="/img/loader.jpg" alt="Погрузчик">
+                            </picture>Погрузчики<span>44</span>
                         </a>
                     </li>
                     <li class="rent-list-item">
                         <a href="/rent-info.php">
                             <picture>
                                 <source srcset="/img/grader-768.jpg" media="(max-width: 700px)">
-                                <img src="/img/grader.jpg" alt="Грейдер">Грейдеры<span>1</span>
-                            </picture>
+                                <img src="/img/grader.jpg" alt="Грейдер">
+                            </picture>Грейдеры<span>1</span>
                         </a>
                     </li>
                     <li class="rent-list-item">
                         <a href="/rent-info.php">
                             <picture>
                                 <source srcset="/img/excavator-768.jpg" media="(max-width: 700px)">
-                                <img src="/img/excavator.jpg" alt="Экскаватор">Экскаваторы<span>7</span>
-                            </picture>
+                                <img src="/img/excavator.jpg" alt="Экскаватор">
+                            </picture>Экскаваторы<span>7</span>
                         </a>
                     </li>
                     <li class="rent-list-item">
                         <a href="/rent-info.php">
                             <picture>
                                 <source srcset="/img/dump-truck-768.jpg" media="(max-width: 700px)">
-                                <img src="/img/dump-truck.jpg" alt="Самосвал">Самосвалы<span>55</span>
-                            </picture>
+                                <img src="/img/dump-truck.jpg" alt="Самосвал">
+                            </picture>Самосвалы<span>55</span>
                         </a>
                     </li>
                     <li class="rent-list-item">
                         <a href="/rent-info.php">
                             <picture>
                                 <source srcset="/img/crane-768.jpg" media="(max-width: 700px)">
-                                <img src="/img/crane.jpg" alt="Кран">Краны<span>54</span>
-                            </picture>
+                                <img src="/img/crane.jpg" alt="Кран">
+                            </picture>Краны<span>54</span>
                         </a>
                     </li>
                     <li class="rent-list-item">
                         <a href="/rent-info.php">
                             <picture>
                                 <source srcset="/img/bulldozer-768.jpg" media="(max-width: 700px)">
-                                <img src="/img/bulldozer.jpg" alt="Бульдозер">Бульдозеры<span>45</span>
-                            </picture>
+                                <img src="/img/bulldozer.jpg" alt="Бульдозер">
+                            </picture>Бульдозеры<span>45</span>
                         </a>
                     </li>
                 </ul>

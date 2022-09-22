@@ -8,7 +8,7 @@
     <div class="wrap">
         <?php include 'includes/header.php'; ?>
         <main>
-            <h1>Аренда специализированной <span class="red-text">техники в Иркутске</span></h1>
+            <h1 class="page_2">Аренда специализированной <span class="red-text">техники в Иркутске</span></h1>
             <section class="rent-mashin">
                 <h2>Каталог спецтехники</h2>
                 <ul class="mashin-info">

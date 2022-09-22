@@ -25,34 +25,34 @@
                         </ul>
                     </div>
                     <picture class="about-wrap-item-2">
-                        <source srcset="/img/map-320.jpg" media="(max-width: 360px)">
-                        <source srcset="/img/map-480.jpg" media="(max-width: 480px)">
-                        <source srcset="/img/map-1024.jpg" media="(max-width: 1024px)">
-                        <img src="/img/map-1920.jpg" alt="Карта России">
+                        <source srcset="/img/map-320.jpg" media="(max-width: 360px)" width="307">
+                        <source srcset="/img/map-480.jpg" media="(max-width: 480px)" width="416">
+                        <source srcset="/img/map-1024.jpg" media="(max-width: 1024px)" width="622">
+                        <img src="/img/map-1920.jpg" alt="Карта России" width="641">
                     </picture>
                 </div>
-                <div class="stat-block">
+                <div class="stat-block numbers">
                     <div class="stat-block-item">
-                        <span class="numb">9</span>
+                        <span class="numb numscroller" data-min='1' data-max='9' data-delay='1.5' data-increment='1'>1</span>
                         <span class="text">лет на рынке</span>
                     </div>
                     <div class="stat-block-item">
-                        <span class="numb">230</span>
+                        <span class="numb numscroller" data-min='1' data-max='230' data-delay='20' data-increment='10'>1</span>
                         <span class="text">проверенных перевозчика</span>
                     </div>
                     <div class="stat-block-item">
-                        <span class="numb">870</span>
+                        <span class="numb numscroller" data-min='1' data-max='870' data-delay='30' data-increment='10'>1</span>
                         <span class="text">довольных клиентов</span>
                     </div>
                     <div class="stat-block-item">
-                        <span class="numb">590 000</span>
+                        <span class="numb numscroller" data-min='1' data-max='590000' data-delay='0.01' data-increment='700'>1</span>
                         <span class="text">тонн доставленных грузов</span>
                     </div>
                 </div>
                 <picture class="white-car wow slideInRight " data-wow-offset='350'>
-                    <source srcset="/img/car-1-320.jpg" media="(max-width: 360px)">
-                    <source srcset="/img/car-1-480.jpg" media="(max-width: 480px)  and (min-width: 361px)">
-                    <img src="/img/car-1-1920.jpg" alt="Белая фура" class=''>
+                    <source srcset="/img/car-1-320.jpg" media="(max-width: 360px)" width="316">
+                    <source srcset="/img/car-1-480.jpg" media="(max-width: 480px)  and (min-width: 361px)" width="390">
+                    <img src="/img/car-1-1920.jpg" alt="Белая фура" width="501">
                 </picture>
             </section>
             <section class="cost-calculation">
@@ -70,13 +70,13 @@
                             </div>
                             <div class="cargo-info-wrap">
                                 <div class="weight-wrap">
-                                    <label for="weight">Вес груза</label>
-                                    <input type="text" name="weight" id="weight" class="inp-weight">
+                                    <label for="weight">Вес груза, т.</label>
+                                    <input pattern="[0-9]{1,2}|[0-9],([0-9]){1,3}|[0-9]\.([0-9]){1,3}" type="text" name="weight" id="weight" class="inp-weight"  title="Введите вес в тоннах">
                                     <div class="icon-inp icon-weight"></div>
                                 </div>
                                 <div class="volume-wrap">
-                                    <label for="volume">Объем груза</label>
-                                    <input type="text" name="volume" id="volume" class="inp-volume">
+                                    <label for="volume">Объем груза, м<sup>3</sup>.</label>
+                                    <input pattern="[0-9]{1,2}|[0-9],([0-9]){1,3}|[0-9]\.([0-9]){1,3}" type="text" name="volume" id="volume" class="inp-volume" title="Введите объем в м кубических">
                                     <div class="icon-inp icon-volume"></div>
                                 </div>
                             </div>
@@ -115,11 +115,11 @@
                     </div>
                     <div class="cargo-wrap-item box-item">
                         <picture class=''>
-                            <source srcset="/img/box-320.jpg" media="(max-width: 370px)">
-                            <source srcset="/img/box-480.jpg" media="(max-width: 480px)">
-                            <source srcset="/img/box-768.jpg" media="(max-width: 768px)">
-                            <source srcset="/img/box-1024.jpg" media="(max-width: 1024px) and (min-width: 769px)">
-                            <img src="/img/box-1920.jpg" alt="Груз в коробках" class='wow bounceInDown' data-wow-offset='350'>
+                            <source srcset="/img/box-320.jpg" media="(max-width: 370px)" width="316">
+                            <source srcset="/img/box-480.jpg" media="(max-width: 480px)" width="396">
+                            <source srcset="/img/box-768.jpg" media="(max-width: 768px)" width="648">
+                            <source srcset="/img/box-1024.jpg" media="(max-width: 1024px) and (min-width: 769px)" width="491">
+                            <img src="/img/box-1920.jpg" alt="Груз в коробках" class='wow bounceInDown' data-wow-offset='350' width="665">
                         </picture>
                     </div>
                 </div>
@@ -146,11 +146,11 @@
                     </div>
                     <div class="cargo-wrap-item box-item">
                         <picture>
-                            <source srcset="/img/IMG-oversize-320.jpg" media="(max-width: 370px)">
-                            <source srcset="/img/IMG-oversize-480.jpg" media="(max-width: 480px)">
-                            <source srcset="/img/IMG-oversize-768.jpg" media="(max-width: 768px)">
-                            <source srcset="/img/IMG-oversize-1024.jpg" media="(max-width: 1024px)">
-                            <img src="/img/IMG-oversize-1920.jpg" alt="Большегруз" class='wow slideInRight' data-wow-offset='350'>
+                            <source srcset="/img/IMG-oversize-320.jpg" media="(max-width: 370px)" width="306">
+                            <source srcset="/img/IMG-oversize-480.jpg" media="(max-width: 480px)" width="416">
+                            <source srcset="/img/IMG-oversize-768.jpg" media="(max-width: 768px)" width="494">
+                            <source srcset="/img/IMG-oversize-1024.jpg" media="(max-width: 1024px)" width="493">
+                            <img src="/img/IMG-oversize-1920.jpg" alt="Большегруз" class='wow slideInRight' data-wow-offset='350' width="772">
                         </picture>
                     </div>
                 </div>
@@ -167,11 +167,11 @@
                     </div>
                     <div class="cargo-wrap-item box-item">
                         <picture>
-                            <source srcset="/img/IMG-danger-320.jpg" media="(max-width: 370px)">
-                            <source srcset="/img/IMG-danger-480.jpg" media="(max-width: 480px)">
-                            <source srcset="/img/IMG-danger-768.jpg" media="(max-width: 768px)">
-                            <source srcset="/img/IMG-danger-1024.jpg" media="(max-width: 1024px)">
-                            <img src="/img/IMG-danger-1920.jpg" alt="Опасный груз" class='wow slideInRight' data-wow-offset='350'>
+                            <source srcset="/img/IMG-danger-320.jpg" media="(max-width: 370px)" width="316">
+                            <source srcset="/img/IMG-danger-480.jpg" media="(max-width: 480px)" width="422">
+                            <source srcset="/img/IMG-danger-768.jpg" media="(max-width: 768px)" width="494">
+                            <source srcset="/img/IMG-danger-1024.jpg" media="(max-width: 1024px)" width="493">
+                            <img src="/img/IMG-danger-1920.jpg" alt="Опасный груз" class='wow slideInRight' data-wow-offset='350' width="689">
                         </picture>
                     </div>
                 </div>
@@ -211,6 +211,8 @@
     <script src="/js/app.js"></script>
     <script src="/js/wow.min.js"></script>
     <script>new WOW().init();</script>
+    <script src="/js/jquery-1.10.2.min.js"></script>
+<script src="/js/numscroller-1.0.js"></script>
 </body>
 
 </html>
