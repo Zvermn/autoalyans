@@ -14,7 +14,9 @@ button::-moz-focus-inner{padding: 0;border: 0;}
 a,a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
-img{vertical-align: top;}
+img{vertical-align: top;
+width:100%;
+}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
@@ -636,6 +638,11 @@ footer {
     transform: translateY(50%) scale(1);
     transition: 0.5s all;
     margin: 0 auto;
+}
+
+@media (orientation: landscape) {
+.active-pop-up{
+transform: translateY(0) scale(1);}
 }
 
 .pop-up-bg {
