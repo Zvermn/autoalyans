@@ -780,6 +780,13 @@ footer {
     }
 }
 
+@media (orientation: landscape) {
+    .active-pop-up {
+        transform: translateY(0) scale(1);
+    }
+
+}
+
 .pop-up-bg {
     position: fixed;
     background-color: rgba(0, 133, 255, 0.4);
