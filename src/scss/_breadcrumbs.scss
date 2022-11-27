@@ -1,0 +1,17 @@
+.breadcrumbs-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 30px;
+}
+
+.breadcrumbs.solid {
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.breadcrumbs.active {
+    color: #0085FF;
+    cursor: default;
+}

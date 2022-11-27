@@ -111,19 +111,28 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+// нумирация в paginations
+let containerPaginations = document.querySelectorAll('.paginations-item');
+containerPaginations[0].classList.add('active');
+for (let index = 0; index < containerPaginations.length; index++) {
+    const element = containerPaginations[index];
+    element.children[0].innerHTML += index + 1;
+}
 
 
+// подстановка h1 в title
+let h1 = document.getElementById('h1');
+let h1Text = h1.innerText;
+let title = document.getElementById('title');
+title.innerHTML = h1Text;
+console.log(title);
 
-// >                                Анимация цифр при прокрутке
 
-
-
-
-
-
+// вызов окна по ссылке
 
 linkBlue.addEventListener('click', () => {
     popUp.classList.add('active-pop-up');
     popupBg.classList.add('active');
     console.log('yes');
 });
+

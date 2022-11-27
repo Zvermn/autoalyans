@@ -8,7 +8,7 @@
     <div class="wrap">
         <?php include 'includes/header.php'; ?>
         <main>
-            <h1>Доставка любых грузов <span class="red-text">автомобильным</span> транспортом по России</h1>
+            <h1 id = 'h1'>Доставка любых грузов <span class="red-text">автомобильным</span> транспортом по России</h1>
             <section class="about">
                 <h2>О компании "Альянс-Авто"</h2>
                 <div class="about-wrap">

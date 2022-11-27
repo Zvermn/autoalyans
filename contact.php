@@ -8,7 +8,7 @@
     <div class="wrap">
         <?php include 'includes/header.php'; ?>
         <main>
-            <h1 class="">Наши контакты</h1>
+            <h1 id = 'h1' class="">Наши контакты</h1>
         </main>
     </div>
     <div class="decorate-footer"></div>
