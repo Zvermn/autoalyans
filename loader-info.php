@@ -62,7 +62,6 @@
                             <h2>Погрузчик универсальный: SX-200 (Модель 2022 года)</h2>
                             <div class="info-item table-info">
                                 <table class="mashine-about">
-                                    <!-- <caption>Грузовик М1</caption> -->
                                     <tr class="mashine-about-tr">
                                         <td>Максимальная высота выгрузки, м</td>
                                         <td>6,6</td>

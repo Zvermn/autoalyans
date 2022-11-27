@@ -753,7 +753,6 @@ footer {
 
 .pop-up-wrap {
     padding: 20px;
-    position: relative;
 }
 
 .pop-up {
@@ -765,6 +764,7 @@ footer {
     z-index: 10;
     max-height: 400px;
     height: 100%;
+    position: relative;
 }
 
 .active-pop-up {
@@ -774,9 +774,9 @@ footer {
     margin: 0 auto;
 }
 
-@media (orientation: landscape) {
+@media screen and (max-width: 1024px) {
     .active-pop-up {
-        transform: translateY(50%) scale(1);
+        transform: translateY(20%) scale(1);
     }
 }
 
@@ -804,8 +804,8 @@ footer {
     width: 16px;
     height: 16px;
     position: absolute;
-    top: -83px;
-    left: 345px;
+    top: 15px;
+    right: 15px;
     transform: rotate(45deg);
 }
 
@@ -925,7 +925,7 @@ footer {
 
 .info-item.img {
     flex: 0 1 380px;
-    margin-right: 40px;
+    // margin-right: 40px;
     min-width: 0;
 }
 
@@ -943,8 +943,15 @@ footer {
 }
 
 .mashine-about {
-    flex: 1 0 338px;
+    flex: 1 1 338px;
     margin-right: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .mashine-about {
+        margin-right: unset;
+    }
+
 }
 
 .mashine-description {
@@ -1006,6 +1013,26 @@ footer {
 
 .rent-mashin h2 {
     margin-bottom: 20px;
+}
+
+.rent-mashin .btn-send {
+    max-width: 188px;
+    width: 100%;
+}
+
+@media screen and (max-width: 684px) {
+    .rent-mashin .btn-send {
+        align-self: center;
+    }
+
+    .info-item.info-item.table-info {
+        margin-bottom: unset;
+    }
+
+    .mashine-about,
+    .cost {
+        margin-bottom: 20px;
+    }
 }
 
 .wrap-body {

@@ -8,37 +8,60 @@
     <div class="wrap">
         <?php include 'includes/header.php'; ?>
         <main>
-            <h1 id='h1' class="page_2">Аренда специализированной <span class="red-text">техники в Иркутске</span></h1>
+            <?php include 'includes/breadcrumbs.php'; ?>
+            <h1 id='h1' class="page_2">Тралы в <span class="red-text">Иркутске</span></h1>
             <section class="rent-mashin">
-                <a href="#">Каталог спецтехники</a>
                 <ul class="mashin-info">
                     <li class="mashin-info-item">
                         <div class="info-item img">
                             <div class="slider">
-                                <div class="slider-wrapper">
-                                    <div class="slide active">
+                                <ul class="slider-wrapper">
+                                    <li class="slide active">
                                         <picture>
                                             <source media="(max-width:700px )" srcset="/img/maz1.jpg">
                                             <img src="/img/maz1.jpg" alt="Маз">
                                         </picture>
-                                    </div>
-                                    <div class="slide">
+                                    </li>
+                                    <li class="slide">
                                         <picture>
                                             <source media="(max-width:700px )" srcset="/img/maz3.jpg">
                                             <img src="/img/maz3.jpg" alt="Маз">
                                         </picture>
-                                    </div>
+                                    </li>
+                                    <li class="slide active">
+                                        <picture>
+                                            <source media="(max-width:700px )" srcset="/img/maz1.jpg">
+                                            <img src="/img/maz1.jpg" alt="Маз">
+                                        </picture>
+                                    </li>
+                                    <li class="slide">
+                                        <picture>
+                                            <source media="(max-width:700px )" srcset="/img/maz3.jpg">
+                                            <img src="/img/maz3.jpg" alt="Маз">
+                                        </picture>
+                                    </li>
+                                    <li class="slide active">
+                                        <picture>
+                                            <source media="(max-width:700px )" srcset="/img/maz1.jpg">
+                                            <img src="/img/maz1.jpg" alt="Маз">
+                                        </picture>
+                                    </li>
+                                    <li class="slide">
+                                        <picture>
+                                            <source media="(max-width:700px )" srcset="/img/maz3.jpg">
+                                            <img src="/img/maz3.jpg" alt="Маз">
+                                        </picture>
+                                    </li>
 
-                                </div>
-                                <div class="slide-indicators">
-                                </div>
+                                </ul>
+                                <ul class="slide-indicators">
+                                </ul>
                             </div>
                         </div>
                         <div class="info-item wrap-table-info">
                             <h2>Погрузчик универсальный: SX-200 (Модель 2022 года)</h2>
                             <div class="info-item table-info">
                                 <table class="mashine-about">
-                                    <!-- <caption>Грузовик М1</caption> -->
                                     <tr class="mashine-about-tr">
                                         <td>Максимальная высота выгрузки, м</td>
                                         <td>6,6</td>
@@ -80,28 +103,28 @@
                     <li class="mashin-info-item">
                         <div class="info-item img">
                             <div class="slider">
-                                <div class="slider-wrapper">
-                                    <div class="slide active">
+                                <ul class="slider-wrapper">
+                                    <li class="slide active">
                                         <picture>
                                             <source media="(max-width:700px )" srcset="/img/maz1.jpg">
                                             <img src="/img/maz1.jpg" alt="Маз">
                                         </picture>
-                                    </div>
-                                    <div class="slide">
+                                    </li>
+                                    <li class="slide">
                                         <picture>
                                             <source media="(max-width:700px )" srcset="/img/maz2.jpg">
                                             <img src="/img/maz2.jpg" alt="Маз">
                                         </picture>
-                                    </div>
-                                    <div class="slide">
+                                    </li>
+                                    <li class="slide">
                                         <picture>
                                             <source media="(max-width:700px )" srcset="/img/maz3.jpg">
                                             <img src="/img/maz3.jpg" alt="Маз">
                                         </picture>
-                                    </div>
-                                </div>
-                                <div class="slide-indicators">
-                                </div>
+                                    </li>
+                                </ul>
+                                <ul class="slide-indicators">
+                                </ul>
                             </div>
                         </div>
                         <div class="info-item wrap-table-info">
@@ -150,17 +173,17 @@
                     <li class="mashin-info-item">
                         <div class="info-item img">
                             <div class="slider">
-                                <div class="slider-wrapper">
-                                    <div class="slide active">
+                                <ul class="slider-wrapper">
+                                    <li class="slide active">
                                         <picture>
                                             <source media="(max-width:700px )" srcset="/img/maz1.jpg">
                                             <img src="/img/maz1.jpg" alt="Маз">
                                         </picture>
-                                    </div>
+                                    </li>
 
-                                </div>
-                                <div class="slide-indicators">
-                                </div>
+                                </ul>
+                                <ul class="slide-indicators">
+                                </ul>
                             </div>
                         </div>
                         <div class="info-item wrap-table-info">
@@ -207,6 +230,12 @@
                         </div>
                     </li>
                 </ul>
+                <ol class="paginations">
+                    <li class="paginations-item"><a href="#" class="link-paginations"></a></li>
+                    <li class="paginations-item"><a href="#" class="link-paginations"></a></li>
+                    <li class="paginations-item"><a href="#" class="link-paginations"></a></li>
+                    <li class="paginations-item"><a href="#" class="link-paginations"></a></li>
+                </ol>
             </section>
             <?php include 'includes/section_send.php'; ?>
         </main>

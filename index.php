@@ -49,7 +49,7 @@
                         <span class="text">тонн доставленных грузов</span>
                     </div>
                 </div>
-                <picture class="white-car wow slideInRight " data-wow-offset='350'>
+                <picture class="white-car wow slideInRight " data-wow-offset='250'>
                     <source srcset="/img/car-1-320.jpg" media="(max-width: 360px)" width="316">
                     <source srcset="/img/car-1-480.jpg" media="(max-width: 480px)  and (min-width: 361px)" width="390">
                     <img src="/img/car-1-1920.jpg" alt="Белая фура" width="501">
@@ -119,7 +119,7 @@
                             <source srcset="/img/box-480.jpg" media="(max-width: 480px)" width="396">
                             <source srcset="/img/box-768.jpg" media="(max-width: 768px)" width="648">
                             <source srcset="/img/box-1024.jpg" media="(max-width: 1024px) and (min-width: 769px)" width="491">
-                            <img src="/img/box-1920.jpg" alt="Груз в коробках" class='wow bounceInDown' data-wow-offset='350' width="665">
+                            <img src="/img/box-1920.jpg" alt="Груз в коробках" class='wow bounceInDown' data-wow-offset='250' width="665">
                         </picture>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                             <source srcset="/img/IMG-oversize-480.jpg" media="(max-width: 480px)" width="416">
                             <source srcset="/img/IMG-oversize-768.jpg" media="(max-width: 768px)" width="494">
                             <source srcset="/img/IMG-oversize-1024.jpg" media="(max-width: 1024px)" width="493">
-                            <img src="/img/IMG-oversize-1920.jpg" alt="Большегруз" class='wow slideInRight' data-wow-offset='350' width="772">
+                            <img src="/img/IMG-oversize-1920.jpg" alt="Большегруз" class='wow slideInRight' data-wow-offset='250' width="772">
                         </picture>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                             <source srcset="/img/IMG-danger-480.jpg" media="(max-width: 480px)" width="422">
                             <source srcset="/img/IMG-danger-768.jpg" media="(max-width: 768px)" width="494">
                             <source srcset="/img/IMG-danger-1024.jpg" media="(max-width: 1024px)" width="493">
-                            <img src="/img/IMG-danger-1920.jpg" alt="Опасный груз" class='wow slideInRight' data-wow-offset='350' width="689">
+                            <img src="/img/IMG-danger-1920.jpg" alt="Опасный груз" class='wow slideInRight' data-wow-offset='250' width="689">
                         </picture>
                     </div>
                 </div>
