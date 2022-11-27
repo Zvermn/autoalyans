@@ -53,3 +53,11 @@ window.addEventListener('DOMContentLoaded', function () {
         sliderArray.push(new Slider(sliderContainer[index]));
     }
 });
+
+// нумирация в paginations
+let containerPaginations = document.querySelectorAll('.paginations-item');
+containerPaginations[0].classList.add('active');
+for (let index = 0; index < containerPaginations.length; index++) {
+    const element = containerPaginations[index];
+    element.children[0].innerHTML += index + 1;
+}
