@@ -165,3 +165,12 @@ select {
     border-style: none;
     padding: 0;
 }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    -webkit-appearance: none;
+    appearance: none;
+}
