@@ -49,7 +49,7 @@
                         <span class="text">тонн доставленных грузов</span>
                     </div>
                 </div>
-                <picture class="white-car wow slideInRight " data-wow-offset='250'>
+                <picture class="white-car wow slideInRight " data-wow-offset='100'>
                     <source srcset="/img/car-1-320.jpg" media="(max-width: 360px)" width="316">
                     <source srcset="/img/car-1-480.jpg" media="(max-width: 480px)  and (min-width: 361px)" width="390">
                     <img src="/img/car-1-1920.jpg" alt="Белая фура" width="501">
