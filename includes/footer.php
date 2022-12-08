@@ -11,17 +11,23 @@
             </a>
             <div class="footer-item footer-social">
                 <span>Мы в соцсетях:</span>
-                <div class="social-icon">
-                    <a href="http://vk.com">
-                        <div class="icon vk"></div>
-                    </a>
-                    <a href="http://youtube.com">
-                        <div class="icon yt"></div>
-                    </a>
-                    <a href="http://instagramm.com">
-                        <div class="icon inst"></div>
-                    </a>
-                </div>
+                <ul class="social-icon">
+                    <li>
+                        <a href="http://vk.com">
+                            <div class="icon vk"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://youtube.com">
+                            <div class="icon yt"></div>
+                        </a>   
+                    </li> 
+                    <li>
+                       <a href="http://instagramm.com">
+                            <div class="icon inst"></div>
+                        </a> 
+                    </li>
+                </ul>
                 <div class="autor">
                     <a></a>
                     <span>Разработка сайта:&nbsp;</span><a href="https://creativebob.ru"><span

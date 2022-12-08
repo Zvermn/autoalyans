@@ -119,6 +119,15 @@ let title = document.getElementById('title');
 title.innerHTML = h1Text;
 console.log(title);
 
+// крошки
+
+let arrBread = document.querySelector('.breadcrumbs-wrap');
+let newLi = document.createElement('li');
+let h1MashineName = h1.firstChild.data;
+newLi.classList.add('active');
+newLi.innerText = h1MashineName;
+arrBread.append(newLi);
+
 
 // вызов окна по ссылке
 

@@ -9,7 +9,7 @@
         <?php include 'includes/header.php'; ?>
         <main>
             <?php include 'includes/breadcrumbs.php'; ?>
-            <h1 id='h1' class="page_2">Экскаваторы в <span class="red-text">Иркутске</span></h1>
+            <h1 id='h1' class="page_2">Экскаваторы<span> в </span><span class="red-text">Иркутске</span></h1>
             <section class="rent-mashin">
                 <ul class="mashin-info">
                     <li class="mashin-info-item">

@@ -8,7 +8,7 @@
                     <input type="text" name="client-name" id="client-name" class="inp-name send-form">
                     <label for="tel">Телефон</label>
                     <input type="tel" name="tel" id="tel" class="inp-tel  send-form tel-input phone-field">
-                    <button type="submit" class="btn-send">Позвоните мне</button>
+                    <input type="submit" value="Позвоните мне" class="btn-send">
                 </div>
             </form>
         </section>

@@ -49,7 +49,7 @@
                         <span class="text">тонн доставленных грузов</span>
                     </div>
                 </div>
-                <picture class="white-car wow slideInRight " data-wow-offset='100'>
+                <picture class="white-car">
                     <source srcset="/img/car-1-320.jpg" media="(max-width: 360px)" width="316">
                     <source srcset="/img/car-1-480.jpg" media="(max-width: 480px)  and (min-width: 361px)" width="390">
                     <img src="/img/car-1-1920.jpg" alt="Белая фура" width="501">
@@ -62,21 +62,21 @@
                         <div class="wrap-form">
                             <div class="from-wrap">
                                 <label for="from">Откуда</label>
-                                <input type="text" name="from" id="from" class="inp-from">
+                                <input type="text" required name="from" id="from" class="inp-from">
                             </div>
                             <div class="where-wrap">
                                 <label for="where">Куда</label>
-                                <input type="text" name="where" id="where" class="inp-where">
+                                <input type="text" required name="where" id="where" class="inp-where">
                             </div>
                             <div class="cargo-info-wrap">
                                 <div class="weight-wrap">
                                     <label for="weight">Вес груза, т.</label>
-                                    <input pattern="[0-9]{1,2}|[0-9],([0-9]){1,3}|[0-9]\.([0-9]){1,3}" type="text" name="weight" id="weight" class="inp-weight"  title="Введите вес в тоннах">
+                                    <input type="number" required name="weight" id="weight" class="inp-weight"  title="Введите вес в тоннах">
                                     <div class="icon-inp icon-weight"></div>
                                 </div>
                                 <div class="volume-wrap">
                                     <label for="volume">Объем груза, м<sup>3</sup>.</label>
-                                    <input pattern="[0-9]{1,2}|[0-9],([0-9]){1,3}|[0-9]\.([0-9]){1,3}" type="text" name="volume" id="volume" class="inp-volume" title="Введите объем в м кубических">
+                                    <input type="number" required name="volume" id="volume" class="inp-volume" title="Введите объем в м кубических">
                                     <div class="icon-inp icon-volume"></div>
                                 </div>
                             </div>
@@ -86,13 +86,13 @@
                             </div>
                             <div class="name-wrap">
                                 <label for="client-name">Ваше имя</label>
-                                <input type="text" name="client-name" id="client-name" class="inp-name">
+                                <input type="text" required name="client-name" id="client-name" class="inp-name">
                             </div>
                             <div class="tel-wrap">
                                 <label for="tel">Телефон</label>
-                                <input type="tel" name="tel" id="tel" class="inp-tel tel-input phone-field">
+                                <input type="tel" required name="tel" id="tel" class="inp-tel tel-input phone-field">
                             </div>
-                            <button type="submit" class="btn-form-1">Расчитать стоимость</button>
+                            <input type="submit" value="Расчитать стоимость" class="btn-form-1">
                         </div>
                     </form>
                 </div>
@@ -114,12 +114,12 @@
                             соответствует объему и месту, занятому под их груз.</p>
                     </div>
                     <div class="cargo-wrap-item box-item">
-                        <picture class=''>
+                        <picture>
                             <source srcset="/img/box-320.jpg" media="(max-width: 370px)" width="316">
                             <source srcset="/img/box-480.jpg" media="(max-width: 480px)" width="396">
                             <source srcset="/img/box-768.jpg" media="(max-width: 768px)" width="648">
                             <source srcset="/img/box-1024.jpg" media="(max-width: 1024px) and (min-width: 769px)" width="491">
-                            <img src="/img/box-1920.jpg" alt="Груз в коробках" class='wow bounceInDown' data-wow-offset='250' width="665">
+                            <img src="/img/box-1920.jpg" alt="Груз в коробках" width="665">
                         </picture>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                             <source srcset="/img/IMG-oversize-480.jpg" media="(max-width: 480px)" width="416">
                             <source srcset="/img/IMG-oversize-768.jpg" media="(max-width: 768px)" width="494">
                             <source srcset="/img/IMG-oversize-1024.jpg" media="(max-width: 1024px)" width="493">
-                            <img src="/img/IMG-oversize-1920.jpg" alt="Большегруз" class='wow slideInRight' data-wow-offset='250' width="772">
+                            <img src="/img/IMG-oversize-1920.jpg" alt="Большегруз" width="772">
                         </picture>
                     </div>
                 </div>
@@ -171,11 +171,11 @@
                             <source srcset="/img/IMG-danger-480.jpg" media="(max-width: 480px)" width="422">
                             <source srcset="/img/IMG-danger-768.jpg" media="(max-width: 768px)" width="494">
                             <source srcset="/img/IMG-danger-1024.jpg" media="(max-width: 1024px)" width="493">
-                            <img src="/img/IMG-danger-1920.jpg" alt="Опасный груз" class='wow slideInRight' data-wow-offset='250' width="689">
+                            <img src="/img/IMG-danger-1920.jpg" alt="Опасный груз" width="689">
                         </picture>
                     </div>
                 </div>
-                <button type="submit" class="cargo-btn open-pop-up">Заказать перевозку опасного груза</button>
+                <button type="submit" class="cargo-btn open-pop-up" >Заказать перевозку опасного груза</button>
             </section>
     </div>
     <section class="steps">
@@ -209,8 +209,6 @@
     <?php include 'includes/footer.php'; ?>
     <?php include 'includes/popup.php'; ?>
     <script src="/js/app.js"></script>
-    <script src="/js/wow.min.js"></script>
-    <script>new WOW().init();</script>
     <script src="/js/jquery-1.10.2.min.js"></script>
 <script src="/js/numscroller-1.0.js"></script>
 </body>
