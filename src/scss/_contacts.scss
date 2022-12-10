@@ -1,0 +1,90 @@
+.icon-contacts {
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 40px;
+    flex: 0 0 auto;
+}
+
+.manager {
+    background-image: url(/css/icon/tel.svg);
+}
+
+.marketing {
+    background-image: url(/css/icon/social_speaker.svg);
+}
+
+.map {
+    background-image: url(/css/icon/map.svg);
+}
+
+.contacts-h2 {
+    text-align: left;
+}
+
+.map-contacts {
+    display: block;
+}
+
+.contacts-list {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.contacts-list li {
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.contacts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.item-contacts.contacts-info {
+    flex: 1 1 auto;
+}
+
+.content-contacts a {
+    display: block;
+    padding: 10px 0;
+    color: black;
+}
+
+.content-contacts .mail-contacts,
+.content-contacts .download-contacts {
+    color: #0085FF;
+}
+
+.download-contacts {
+    font-weight: 500;
+}
+
+.download-contacts::before {
+    content: url(/css/icon/dwn.svg);
+    margin-right: 5px;
+}
+
+.adress,
+.marketings,
+.managers {
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.content-contacts {
+    flex: 0 1 350px;
+}
+
+.contacts-h1 {
+    margin-bottom: 20px;
+}
+
+.content-contacts p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
