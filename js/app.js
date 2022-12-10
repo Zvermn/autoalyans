@@ -126,14 +126,29 @@ let newLi = document.createElement('li');
 let h1MashineName = h1.firstChild.data;
 newLi.classList.add('active');
 newLi.innerText = h1MashineName;
-arrBread.append(newLi);
+if (arrBread) {
+    arrBread.append(newLi);
+};
 
+
+// блок поиска
+
+let srhBlock = document.querySelector('.search_block')
+let srcForm = document.querySelector('.search-form')
+srhBlock.addEventListener('click', () => {
+    srcForm.classList.toggle('active');
+    srhBlock.classList.toggle('active');
+});
 
 // вызов окна по ссылке
 
-linkBlue.addEventListener('click', () => {
-    popUp.classList.add('active-pop-up');
-    popupBg.classList.add('active');
-    console.log('yes');
-});
+if (linkBlue) {
+    linkBlue.addEventListener('click', () => {
+        popUp.classList.add('active-pop-up');
+        popupBg.classList.add('active');
+        console.log('yes');
+    });
+}
+
+
 

@@ -92,8 +92,6 @@
     <?php include 'includes/footer.php'; ?>
     <?php include 'includes/popup.php'; ?>
     <script src="/js/app.js"></script>
-    <script src="wow.min.js"></script>
-    <script>new WOW().init();</script>
 </body>
 
 </html>
