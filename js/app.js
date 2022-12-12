@@ -138,6 +138,7 @@ let srcForm = document.querySelector('.search-form')
 srhBlock.addEventListener('click', () => {
     srcForm.classList.toggle('active');
     srhBlock.classList.toggle('active');
+    document.getElementById('srcms').focus();
 });
 
 // вызов окна по ссылке
