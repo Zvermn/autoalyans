@@ -3,7 +3,7 @@
 <?php include 'includes/head.php'; ?>
 <html>
 
-<body class="wrap-body">
+<body>
     <div class="line-decorate"></div>
     <div class="wrap">
         <?php include 'includes/header.php'; ?>
@@ -51,7 +51,6 @@
             </section>
         </main>
     </div>
-    <div class="decorate-footer"></div>
     <?php include 'includes/footer.php'; ?>
     <?php include 'includes/popup.php'; ?>
     <script src="/js/app.js"></script>

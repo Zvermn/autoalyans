@@ -1,3 +1,4 @@
+<div class="decorate-footer"></div>
 <footer>
         <div class="wrap footer-wrap">
             <div class="footer-item footer-contact">

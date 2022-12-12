@@ -240,7 +240,6 @@
             <?php include 'includes/section_send.php'; ?>
         </main>
     </div>
-    <div class="decorate-footer"></div>
     <?php include 'includes/footer.php'; ?>
     <?php include 'includes/popup.php'; ?>
     <script src="/js/app.js"></script>
