@@ -95,7 +95,7 @@
                                         опилок,
                                         отсева.
                                     </p>
-                                    <button type="submit" class="btn-send open-pop-up">Заказать</button>
+                                    <button type="submit" class="btn-send st open-pop-up">Заказать</button>
                                 </div>
                             </div>
                         </div>
@@ -165,7 +165,7 @@
                                         опилок,
                                         отсева.
                                     </p>
-                                    <button type="submit" class="btn-send open-pop-up">Заказать</button>
+                                    <button type="submit" class="btn-send st open-pop-up">Заказать</button>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +224,7 @@
                                         опилок,
                                         отсева.
                                     </p>
-                                    <button type="submit" class="btn-send open-pop-up">Заказать</button>
+                                    <button type="submit" class="btn-send st open-pop-up">Заказать</button>
                                 </div>
                             </div>
                         </div>

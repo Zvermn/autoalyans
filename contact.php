@@ -11,7 +11,7 @@
             <h1 id='h1' class="contacts-h1">Наши контакты</h1>
             <section class="contacts">
                 <div class="item-contacts contacts-info">
-                    <h2 class="contacts-h2">Транспортная компания<span>&#12318;Альянс-Авто&#12318;</span></h2>
+                    <h2 class="contacts-h2">Транспортная компания <span>&laquo;Альянс-Авто&raquo;</span></h2>
                     <ul class="contacts-list">
                         <li>
                             <div class="icon-contacts map"></div>

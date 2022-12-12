@@ -3,7 +3,7 @@
     height: 28px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 40px;
+    margin-right: 25px;
     flex: 0 0 auto;
 }
 
@@ -46,6 +46,7 @@
 
 .item-contacts.contacts-info {
     flex: 1 1 auto;
+    min-width: 0;
 }
 
 .content-contacts a {

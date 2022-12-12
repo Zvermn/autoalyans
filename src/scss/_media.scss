@@ -1,118 +1,130 @@
-@media screen and (max-width: 769px) /*and (min-width:768px)*/{
+@media screen and (max-width: 769px)
+
+/*and (min-width:768px)*/
+    {
     .header-wrap {
         justify-content: center;
     }
 
-    .item-2{
-        
-            align-items: stretch;
-            flex-basis: 100%;
+    .item-2 {
+
+        align-items: stretch;
+        flex-basis: 100%;
     }
 
-    .info{
+    .info {
         text-align: center;
     }
 
-    .nav{
+    .nav {
         align-self: flex-start;
     }
 
-    .stat-block{
+    .stat-block {
         flex-flow: column wrap;
         align-items: center;
         justify-content: space-evenly;
         height: 470px;
     }
 
-    .stat-block-item{
+    .stat-block-item {
         margin-bottom: 20px;
     }
 
-    .numb{
+    .numb {
         margin-bottom: 5px;
     }
 
-    .text-item{
-        flex:0 0 70%;
+    .text-item {
+        flex: 0 0 70%;
     }
 
-    .box-item{
+    .box-item {
         flex: auto;
         margin-bottom: 40px;
     }
 
-    .about-wrap-item-1{
+    .about-wrap-item-1 {
         flex-basis: unset;
     }
-    .steps{
+
+    .steps {
         padding: 71px 0;
         margin: 0 20px 80px 20px;
     }
-    
+
     .insurance p {
         width: 70%;
     }
 
-    .steps-list-item{
+    .steps-list-item {
         flex: 0 1 380px;
     }
 
-    .insurance h2{
+    .insurance h2 {
         text-align: center;
     }
 
-    .footer-wrap{
+    .footer-wrap {
         flex-flow: column nowrap;
         align-items: center;
         height: 400px;
     }
 
-    .footer-contact{
+    .footer-contact {
         flex-basis: 90px;
         text-align: center;
         order: 2;
     }
 
-    .footer-social{
+    .footer-social {
         flex-basis: 120px;
         align-items: center;
         justify-content: space-evenly;
         order: 3;
     }
 
-    .autor{
+    .autor {
         margin: unset;
     }
 }
 
-@media screen and (max-width: 1024px){
-    section{
+@media screen and (max-width: 1024px) {
+    section {
         margin-bottom: 80px;
-    } 
-    h2{
+    }
+
+    h2 {
         text-align: center;
     }
 
-    .about h2{
+    .about h2 {
         text-align: start;
     }
-    .send{
+
+    .send {
         margin-bottom: 40px;
     }
 }
 
-@media screen and (max-width: 480px){
-    
-    p, li {
+@media screen and (max-width: 480px) {
+
+    p,
+    li {
         font-size: 1.12rem;
     }
 
-    .header-mail{
+    .content-contacts p,
+    .content-contacts a {
+        font-size: 1.0rem;
+    }
+
+    .header-mail {
         margin-bottom: 20px;
     }
 
 
-    .bacground-form{
+    .bacground-form {
         padding: 60px 0;
         /* box-shadow: unset; */
     }
@@ -125,30 +137,33 @@
         margin-right: auto;
     } */
 
-    .insurance p{
+    .insurance p {
         width: 100%;
     }
-    .send{
+
+    .send {
         margin: 0;
         margin-bottom: 40px;
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
 
-    h1{
+    h1 {
         font-size: 2rem;
     }
-    h2{
+
+    h2 {
         font-size: 1.6rem;
     }
 
-    .bacground-form{
+    .bacground-form {
         padding: 30px 0;
         box-shadow: unset;
     }
 
-    .about-list li:before, .oversize-list li:before{
+    .about-list li:before,
+    .oversize-list li:before {
         padding: 0 10px 0 20px;
     }
 
@@ -162,43 +177,47 @@
     }
 }
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 740px) {
 
-    .wrap-form{
-    justify-content: center;
-    padding: 60px;
+    .wrap-form {
+        justify-content: center;
+        padding: 60px;
     }
 
-    .where-wrap, .from-wrap, .name-wrap, .tel-wrap{
+    .where-wrap,
+    .from-wrap,
+    .name-wrap,
+    .tel-wrap {
         margin-right: unset;
     }
 
-    .form-1 .text-area{
+    .form-1 .text-area {
         flex-basis: 310px;
     }
 }
 
 @media screen and (max-width: 530px) {
-    .wrap-form{
+    .wrap-form {
         padding: 20px;
-        }
-    
+    }
+
 
 }
 
 @media screen and (max-width: 410px) {
-    .wrap-form{
+    .wrap-form {
         padding: unset;
-        }
-    
-        .bacground-form{
-            box-shadow: unset;
-        }
-    
+    }
+
+    .bacground-form {
+        box-shadow: unset;
+    }
+
 
 }
+
 @media screen and (max-width: 620px) {
-    .nav{
+    .nav {
         display: flex;
         flex-flow: column wrap;
         align-items: center;
@@ -210,7 +229,7 @@
         margin-bottom: 20px;
     }
 
-    .nav li:last-child{
+    .nav li:last-child {
         margin-bottom: unset;
     }
 }
