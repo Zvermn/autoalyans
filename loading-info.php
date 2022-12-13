@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang='ru'>
 <?php include 'includes/head.php'; ?>
-<html>
 
 <body>
     <div class="line-decorate"></div>
