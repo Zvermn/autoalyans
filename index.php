@@ -8,7 +8,9 @@
     <div class="line-decorate"></div>
     <div class="wrap">
         <?php include 'includes/header.php'; ?>
-        <main>
+    </div>
+    <main>
+        <div class="wrap">
             <h1 id='h1'>Доставка любых грузов <span class="red-text">автомобильным</span> транспортом по России</h1>
             <section class="about">
                 <h2>О компании "Альянс-Авто"</h2>
@@ -186,33 +188,33 @@
                 </div>
                 <button type="submit" class="cargo-btn open-pop-up">Заказать перевозку опасного груза</button>
             </section>
-    </div>
-    <section class="steps">
-        <div class="wrap">
-            <h2>Быстро организуем перевозку в три шага:</h2>
-            <ul class="steps-list">
-                <li class="steps-list-item"><span class="steps-numb">1<span
-                            class="steps-numb-shadow">1</span></span>Расскажите нам какой груз и
-                    куда вам необходимо его перевезти - <span class="link-blue">отправить заявку</span></li>
-                <li class="steps-list-item"><span class="steps-numb">2<span class="steps-numb-shadow">2</span>
-                    </span>Мы подберем под ваш груз
-                    оптимальный транспорт, согласуем детали,
-                    перезвоним и сообщим стоимость.</li>
-                <li class="steps-list-item"><span class="steps-numb">3<span
-                            class="steps-numb-shadow">3</span></span>Заключаем договор и ваш
-                    груз отправляется в пункт назначения</li>
-            </ul>
         </div>
-    </section>
-    <div class="wrap">
-        <section class="insurance">
-            <h2>Страхование</h2>
-            <p>Страхование грузов при перевозке — одно из важных условий максимального снижения имущественных рисков
-                собственников при доставке сборных грузов и возмещения ущерба в максимально короткие сроки.
-            </p>
+        <section class="steps">
+            <div class="wrap">
+                <h2>Быстро организуем перевозку в три шага:</h2>
+                <ul class="steps-list">
+                    <li class="steps-list-item"><span class="steps-numb">1<span
+                                class="steps-numb-shadow">1</span></span>Расскажите нам какой груз и
+                        куда вам необходимо его перевезти - <span class="link-blue">отправить заявку</span></li>
+                    <li class="steps-list-item"><span class="steps-numb">2<span class="steps-numb-shadow">2</span>
+                        </span>Мы подберем под ваш груз
+                        оптимальный транспорт, согласуем детали,
+                        перезвоним и сообщим стоимость.</li>
+                    <li class="steps-list-item"><span class="steps-numb">3<span
+                                class="steps-numb-shadow">3</span></span>Заключаем договор и ваш
+                        груз отправляется в пункт назначения</li>
+                </ul>
+            </div>
         </section>
-        <?php include 'includes/section_send.php';?>
-    </div>
+        <div class="wrap">
+            <section class="insurance">
+                <h2>Страхование</h2>
+                <p>Страхование грузов при перевозке — одно из важных условий максимального снижения имущественных рисков
+                    собственников при доставке сборных грузов и возмещения ущерба в максимально короткие сроки.
+                </p>
+            </section>
+            <?php include 'includes/section_send.php';?>
+        </div>
     </main>
     <?php include 'includes/footer.php'; ?>
     <?php include 'includes/popup.php'; ?>
