@@ -31,8 +31,8 @@
                     <li class="rent-list-item">
                         <a href="/loading-info.php">
                             <picture>
-                                <source srcset="/img/self - loading-768.jpg" media="(max-width: 700px)">
-                                <img src="/img/self - loading.jpg" alt="Самогруз">
+                                <source srcset="/img/self-loading-768.jpg" media="(max-width: 700px)">
+                                <img src="/img/self-loading.jpg" alt="Самогруз">
                             </picture>Самогрузы<span>24</span>
                         </a>
                     </li>
