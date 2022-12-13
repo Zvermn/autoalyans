@@ -2,8 +2,6 @@
 <html lang='ru'>
 <?php include 'includes/head.php'; ?>
 
-<html>
-
 <body>
     <div class="line-decorate"></div>
     <div class="wrap">
