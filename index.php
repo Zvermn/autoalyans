@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang='ru'>
 <?php include 'includes/head.php'; ?>
+
 <html>
 
 <body>
@@ -8,7 +9,7 @@
     <div class="wrap">
         <?php include 'includes/header.php'; ?>
         <main>
-            <h1 id = 'h1'>Доставка любых грузов <span class="red-text">автомобильным</span> транспортом по России</h1>
+            <h1 id='h1'>Доставка любых грузов <span class="red-text">автомобильным</span> транспортом по России</h1>
             <section class="about">
                 <h2>О компании "Альянс-Авто"</h2>
                 <div class="about-wrap">
@@ -33,19 +34,23 @@
                 </div>
                 <div class="stat-block numbers">
                     <div class="stat-block-item">
-                        <span class="numb numscroller" data-min='1' data-max='9' data-delay='1.5' data-increment='1'>1</span>
+                        <span class="numb numscroller" data-min='1' data-max='9' data-delay='1.5'
+                            data-increment='1'>1</span>
                         <span class="text">лет на рынке</span>
                     </div>
                     <div class="stat-block-item">
-                        <span class="numb numscroller" data-min='1' data-max='230' data-delay='20' data-increment='10'>1</span>
+                        <span class="numb numscroller" data-min='1' data-max='230' data-delay='20'
+                            data-increment='10'>1</span>
                         <span class="text">проверенных перевозчика</span>
                     </div>
                     <div class="stat-block-item">
-                        <span class="numb numscroller" data-min='1' data-max='870' data-delay='30' data-increment='10'>1</span>
+                        <span class="numb numscroller" data-min='1' data-max='870' data-delay='30'
+                            data-increment='10'>1</span>
                         <span class="text">довольных клиентов</span>
                     </div>
                     <div class="stat-block-item">
-                        <span class="numb numscroller" data-min='1' data-max='590000' data-delay='0.01' data-increment='700'>1</span>
+                        <span class="numb numscroller" data-min='1' data-max='590000' data-delay='0.01'
+                            data-increment='700'>1</span>
                         <span class="text">тонн доставленных грузов</span>
                     </div>
                 </div>
@@ -71,12 +76,14 @@
                             <div class="cargo-info-wrap">
                                 <div class="weight-wrap">
                                     <label for="weight">Вес груза, т.</label>
-                                    <input type="number" required name="weight" id="weight" class="inp-weight"  title="Введите вес в тоннах">
+                                    <input type="number" required name="weight" id="weight" class="inp-weight"
+                                        title="Введите вес в тоннах">
                                     <div class="icon-inp icon-weight"></div>
                                 </div>
                                 <div class="volume-wrap">
                                     <label for="volume">Объем груза, м<sup>3</sup>.</label>
-                                    <input type="number" required name="volume" id="volume" class="inp-volume" title="Введите объем в м кубических">
+                                    <input type="number" required name="volume" id="volume" class="inp-volume"
+                                        title="Введите объем в м кубических">
                                     <div class="icon-inp icon-volume"></div>
                                 </div>
                             </div>
@@ -86,11 +93,12 @@
                             </div>
                             <div class="name-wrap">
                                 <label for="client-name">Ваше имя</label>
-                                <input type="text" required name="client-name" id="client-name" class="inp-name">
+                                <input type="text" required name="client-name" id="client-name-form-1" class="inp-name">
                             </div>
                             <div class="tel-wrap">
                                 <label for="tel">Телефон</label>
-                                <input type="tel" required name="tel" id="tel" class="inp-tel tel-input phone-field">
+                                <input type="tel" required name="tel" id="tel-form-1"
+                                    class="inp-tel tel-input phone-field">
                             </div>
                             <input type="submit" value="Расчитать стоимость" class="btn-form-1">
                         </div>
@@ -118,7 +126,8 @@
                             <source srcset="/img/box-320.jpg" media="(max-width: 370px)" width="316">
                             <source srcset="/img/box-480.jpg" media="(max-width: 480px)" width="396">
                             <source srcset="/img/box-768.jpg" media="(max-width: 768px)" width="648">
-                            <source srcset="/img/box-1024.jpg" media="(max-width: 1024px) and (min-width: 769px)" width="491">
+                            <source srcset="/img/box-1024.jpg" media="(max-width: 1024px) and (min-width: 769px)"
+                                width="491">
                             <img src="/img/box-1920.jpg" alt="Груз в коробках" width="665">
                         </picture>
                     </div>
@@ -175,7 +184,7 @@
                         </picture>
                     </div>
                 </div>
-                <button type="submit" class="cargo-btn open-pop-up" >Заказать перевозку опасного груза</button>
+                <button type="submit" class="cargo-btn open-pop-up">Заказать перевозку опасного груза</button>
             </section>
     </div>
     <section class="steps">
@@ -203,13 +212,13 @@
             </p>
         </section>
         <?php include 'includes/section_send.php';?>
-        </main>
     </div>
+    </main>
     <?php include 'includes/footer.php'; ?>
     <?php include 'includes/popup.php'; ?>
     <script src="/js/app.js"></script>
     <script src="/js/jquery-1.10.2.min.js"></script>
-<script src="/js/numscroller-1.0.js"></script>
+    <script src="/js/numscroller-1.0.js"></script>
 </body>
 
 </html>
