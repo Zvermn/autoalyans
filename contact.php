@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang='ru'>
 <?php include 'includes/head.php'; ?>
-<html>
 
 <body>
     <div class="line-decorate"></div>
@@ -46,7 +45,7 @@
                     </ul>
                 </div>
                 <div class="item-contacts contacts-map">
-                    <img src="/img/map-contacts.jpg" alt="Карта" width="530px" class="map-contacts">
+                    <img src="/img/map-contacts.jpg" alt="Карта" width="530" class="map-contacts">
                 </div>
             </section>
         </main>
