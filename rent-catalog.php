@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang='ru'>
 <?php include 'includes/head.php'; ?>
-<html>
 
 <body>
     <div class="line-decorate"></div>
     <div class="wrap">
         <?php include 'includes/header.php'; ?>
-        <main>
-            <h1 id = 'h1'>Аренда спецтехники <span class="red-text">техники в Иркутске</span></h1>
+    </div>
+    <main>
+        <div class="wrap">
+            <h1 id='h1'>Аренда спецтехники <span class="red-text">техники в Иркутске</span></h1>
             <section class="rent">
                 <h2>Каталог спецтехники</h2>
                 <ul class="rent-list">
@@ -85,9 +86,10 @@
                     </li>
                 </ul>
             </section>
-            <?php include 'includes/section_send.php'; ?>
-        </main>
-    </div>
+        </div>
+        <?php include 'includes/section_send.php'; ?>
+    </main>
+
     <?php include 'includes/footer.php'; ?>
     <?php include 'includes/popup.php'; ?>
     <script src="/js/app.js"></script>
