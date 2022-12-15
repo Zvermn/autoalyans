@@ -1052,6 +1052,11 @@ footer {
     display: block;
 }
 
+.paginations-item:hover {
+    background-color: #e51313;
+
+}
+
 .paginations-item.active {
     background-color: #CC0000;
 }

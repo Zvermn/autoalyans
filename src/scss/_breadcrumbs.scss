@@ -2,13 +2,11 @@
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 20px;
-    text-decoration-line: underline;
     font-weight: 500;
     font-size: 1.15rem;
 }
 
 .breadcrumbs-wrap li {
-    text-decoration-line: underline;
     font-weight: 500;
     font-size: 1.15rem;
 
@@ -25,4 +23,9 @@
 
 .breadcrumbs-wrap .active::before {
     content: '/ ';
+}
+
+.breadcrumbs:hover {
+    text-decoration-line: underline;
+
 }
