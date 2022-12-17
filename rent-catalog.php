@@ -60,7 +60,7 @@
                             </picture>Экскаваторы<span>7</span>
                         </a>
                     </li>
-                    <li class="rent-list-item">
+                    <!-- <li class="rent-list-item">
                         <a href="/dump-truck-info.php">
                             <picture>
                                 <source srcset="/img/dump-truck-768.jpg" media="(max-width: 700px)">
@@ -83,7 +83,7 @@
                                 <img src="/img/bulldozer.jpg" alt="Бульдозер">
                             </picture>Бульдозеры<span>45</span>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </section>
         </div>

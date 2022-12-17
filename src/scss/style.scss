@@ -161,13 +161,14 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.nav {
-    padding-bottom: 30px;
-}
+// .nav {
+//     padding-bottom: 30px;
+// }
 
 .nav li {
     text-align: center;
     display: inline-block;
+    margin-bottom: 30px;
 }
 
 .link-nav {
@@ -868,8 +869,8 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-content: space-around;
-    min-height: 1450px;
+    // align-content: space-around;
+    // min-height: 1450px;
     height: 100%;
 }
 
