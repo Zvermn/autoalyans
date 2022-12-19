@@ -109,10 +109,13 @@ h6 {
     height: 6px;
     background-color: $blue;
     margin-bottom: 18px;
+    min-height: 6px;
 }
 
 body {
     padding-top: 10px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .wrap {
@@ -136,6 +139,7 @@ body {
     height: inherit;
     align-items: flex-end;
     flex-wrap: wrap;
+    flex: 1 1 625px;
 }
 
 .info {
@@ -168,7 +172,7 @@ body {
 .nav li {
     text-align: center;
     display: inline-block;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
 }
 
 .link-nav {
@@ -763,6 +767,7 @@ footer {
     background-image: url(/css/icon/footer-dashed.svg);
     background-repeat: repeat-x;
     height: 3px;
+    min-height: 3px;
 }
 
 .footer-social {
